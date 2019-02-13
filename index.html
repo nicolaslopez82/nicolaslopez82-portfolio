@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<title>Java Developer - NL82</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+<link rel="icon" href="assets/images/portfolio/NL82-icon.png">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img class="w3-animate-zoom" src="assets/images/portfolio/nicolaslopez-background-image.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-terminal w3-xxlarge"></i>
+    <p>PROJECTS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#projects" class="w3-bar-item w3-button" style="width:25% !important">projects</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Nicolas Lopez.</h1>
+    <h2 class="w3-text-light-grey">Java Full Stack Developer</h2>
+    <img src="assets/images/portfolio/nicolaslopez-background-image.jpg" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Nicolas Lopez</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>In a world where the innovation, engineering, and technologies are around us, I love to create software solutions for companies and start-ups to through Java and JS Full Stack technologies.
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Java Full Stack Developer</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+
+    <p class="w3-wide">Java SDET - QA Automation</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:75%"></div>
+    </div>
+
+    <p class="w3-wide">Web Developer</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:65%"></div>
+    </div><br>
+
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">20+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">12+</span><br>
+        Courses Taken
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">2</span><br>
+        Diplomas
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">90+</span><br>
+        Meetings
+      </div>
+    </div>
+
+    <button id="downloadResume" class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Advance</li>
+          <li class="w3-padding-16">Java</li>
+          <li class="w3-padding-16">Spring</li>
+          <li class="w3-padding-16">SpringBoot</li>
+          <li class="w3-padding-16">Design Patterns</li>
+        </ul>
+      </div>
+
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Intermediate</li>
+          <li class="w3-padding-16">Selenium</li>
+          <li class="w3-padding-16">TestNG</li>
+          <li class="w3-padding-16">RestAssured</li>
+          <li class="w3-padding-16">SQL - MongoDB</li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16">JavaScript</li>
+          <li class="w3-padding-16">Angular</li>
+          <li class="w3-padding-16">Node.js</li>
+          <li class="w3-padding-16">Android</li>
+        </ul>
+      </div>
+
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Interests</li>
+          <li class="w3-padding-16">Blockchain</li>
+          <li class="w3-padding-16">Machine Learning</li>
+          <li class="w3-padding-16">GIS</li>
+          <li class="w3-padding-16">Golang</li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+    <br>
+
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>
+    <img src="assets/images/linkedin/daniel-figueroa-linkedin.jpg" alt="Daniel Figueroa Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right"><a href="https://www.linkedin.com/in/daniel-figueroa-99714359/" target="_blank">Daniel Figueroa.</a></span>Delivery Manager | <a href="https://prokarma.com/" target="_blank">ProKarma.</a></p>
+    <p>He is a very responsible team member, reporting with time any delay and providing both problem and solution at any given time. Is constantly learning best practices and talking to his peer on how to improve his coding and testing skills, is not one of these people that limits his knowledge to a single technology which is good. During Demos his performance was also excellent, providing proper updates, short and concise slideshows with user friendly description of the features, never digging too deep into explaining the code to people that do not have or do not need to have the knowledge.</p><br>
+
+    <img src="assets/images/linkedin/agustin-coria-linkedin.jpg" alt="Agustin Coria Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right"><a href="https://www.linkedin.com/in/agustincoria/" target="_blank">Agustin Coria.</a></span> Engagement Manager | <a href="https://www.bairesdev.com/" target="_blank">BairesDev.</a></p>
+    <p>Nicolas is not only adept on the technical end. In his projects, he not only stayed within the limits of what his role indicated, but he always took an extra step and offered even more through the input of his ideas and his technical prowess. One of the things I most highlight about him is his commitment, even when his own workload was overwhelming, he would lend a hand and sacrifice his own interests and time for the team.</p>
+  <!-- End About Section -->
+  </div>
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding w3-content" id="projects">
+    <h2 class="w3-text-light-grey">My Projects</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <br>
+
+    <!-- Grid for projects -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-row-padding">
+          <img class="w3-opacity w3-hover-opacity-off" src="assets/images/projects/java-spring-rest-api.gif" style="width:100%">
+            <a href="https://github.com/nicolaslopez82/SpringBoot-Rest-Api" target="_blank"><i class="fa fa-github fa-fw w3-text-white w3-medium w3-margin-right"></i>Code on GitHub</a><br><br>
+          <img class="w3-opacity w3-hover-opacity-off" src="assets/images/projects/instanews.gif" style="width:100%">
+            <a href="https://github.com/nicolaslopez82/Instanews" target="_blank"><i class="fa fa-github fa-fw w3-text-white w3-medium w3-margin-right"></i>Code on GitHub</a><br><br>
+          <img class="w3-opacity w3-hover-opacity-off" src="assets/images/projects/java-software-design-patterns.gif" style="width:100%">
+            <a href="https://github.com/nicolaslopez82/Software_Architecture_Design_in_Java" target="_blank"><i class="fa fa-github fa-fw w3-text-white w3-medium w3-margin-right"></i>Code on GitHub</a><br><br>
+      </div>
+
+      <div class="w3-half w3-row-padding">
+          <img class="w3-opacity w3-hover-opacity-off" src="assets/images/projects/java-sdet.gif" style="width:100%">
+            <a href="https://github.com/nicolaslopez82/Celltrak-Java-SDET" target="_blank"><i class="fa fa-github fa-fw w3-text-white w3-medium w3-margin-right"></i>Code on GitHub</a><br><br>
+          <img class="w3-opacity w3-hover-opacity-off" src="assets/images/projects/quotesondev.gif" style="width:100%">
+            <a href="https://github.com/nicolaslopez82/Quotes-on-Dev" target="_blank"><i class="fa fa-github fa-fw w3-text-white w3-medium w3-margin-right"></i>Code on GitHub</a><br><br>
+          <img class="w3-opacity w3-hover-opacity-off" src="assets/images/projects/javascript-game.gif" style="width:100%">
+            <a href="https://github.com/nicolaslopez82/Ping-Pong-Game" target="_blank"><i class="fa fa-github fa-fw w3-text-white w3-medium w3-margin-right"></i>Code on GitHub</a><br><br>
+      </div>
+    <!-- End projects grid -->
+    </div>
+  </div>
+  <!-- End Portfolio Section -->
+
+  <!-- END PAGE CONTENT -->
+  </div>
+
+  <!-- Footer - Contact Section -->
+  <footer class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-half">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Vancouver, Canada</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +1 (604) 726 9831</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: nicolaslopez82@gmail.com</p>
+    </div>
+    <div class="w3-half">
+      <p>
+        <i class="fa fa-linkedin fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>
+        <a href="https://www.linkedin.com/in/nicolaslopez82/" target="_blank" class="w3-hover-text-green"> https://www.linkedin.com/in/nicolaslopez82/</a>
+      </p>
+      <p>
+        <i class="fa fa-github fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>
+        <a href="https://github.com/nicolaslopez82" target="_blank" class="w3-hover-text-green"> https://github.com/nicolaslopez82</a>
+      </p>
+      <p>
+        <img class="fa-fw w3-text-white w3-xxlarge w3-margin-right" src="assets/images/portfolio/nicolaslopez82-logo-s.png" style="width:10%">
+        <i class="w3-medium">Powered by</i> <a href="#" class="w3-hover-text-green">nicolaslopez82</a>
+      </p>
+    </div>
+  </footer>
+  <!-- End Footer - Contact Section -->
+
+</body>
+<script src="js/main.js"></script>
+</html>

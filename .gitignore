@@ -1,0 +1,45 @@
+
+# Local History for Visual Studio
+.localhistory/
+
+# build/ for Gulp. - nicolaslopez82
+/build/*
+
+#=========== Added by nicolaslopez82 ========================#
+#.gitignore
+
+# Ignore system files
+.DS_Stores
+.DS_Stores?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+*[Tt]humbs.db*
+.Trashes
+
+#Ignore npm packages
+node_modules/
+#git rm -r --cached (file or folder name)
+
+nbproject
+npm-debug.log
+
+*.swp
+*~
+.DS_Store
+Thumbs.db
+.project
+.svn
+.nvm-version
+node_modules
+npm-debug.log
+debug.log
+/tags
+/atom-shell/
+/out/
+docs/output
+docs/includes
+spec/fixtures/evil-files/
+out/
+/electron/
